@@ -10,8 +10,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "infotech/yii-document-generator": "dev-master",
-        "phpoffice/phpword": "0.9.*"
+        "infotech/yii-document-generator": "0.2.*",
+        "phpoffice/phpword": "~0.13"
     },
     "require-dev": {
         "phpspec/phpspec": "2.0.*@dev"
