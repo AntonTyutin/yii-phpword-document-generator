@@ -26,7 +26,7 @@ class PhpWordRenderer implements RendererInterface
     {
         $doc = new Template($templatePath);
 
-        $property = new \ReflectionProperty($doc, '_documentXML');
+        $property = new \ReflectionProperty($doc, 'tempDocumentMainPart');
         $property->setAccessible(true);
         $xml = $property->getValue($doc);
 
